@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Checkout') { 
             steps { 
-                git url:'<你的GitHub项目地址>', branch: 'main' 
+                git url:'https://github.com/ventsze/jenkins-demo.git', branch: 'main' 
             } 
         } 
         stage('Install') { 
