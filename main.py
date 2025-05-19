@@ -1,13 +1,9 @@
-def add(a, b): 
-    return a + b 
- 
-def subtract(a, b): 
-    return a - b 
- 
-if __name__ == '__main__': 
-    result1 = add(10, 5) 
-    result2 = subtract(10, 5) 
-    print("Addition:", result1) 
-    print("Subtraction:", result2)
+def add(a, b):
+    return a + b
 
-    # Update for Jenkins test2
+def subtract(a, b):
+    return a - b
+
+if __name__ == '__main__':
+    print("Addition:", add(10, 5))
+    print("Subtraction:", subtract(10, 5))
